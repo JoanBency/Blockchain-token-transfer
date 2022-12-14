@@ -3,9 +3,17 @@
 ```docker build --tag nci02 .```
 
 
-## Run an image ##
+
+## Pull the existing Docker image from DockerHub to run the app ##
 
 ```docker pull joanbency/blockchain-transfer-token:latest```
+
+
+## Run the image ##
+
+```docker run --name ncilab02 -p 8090:8080 joanbency/blockchain-transfer-token```
+
+
 
 ## Run the curl command ##
 
