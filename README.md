@@ -7,6 +7,11 @@
 
 ```docker run --name ncilab02 -p 8090:8080 nci02```
 
+
+## Pull the existing Docker image from DockerHub to run the app ##
+
+```docker pull joanbency/blockchain-transfer-token:latest```
+
 ## Run the curl command ##
 
 This transfers ETH:
